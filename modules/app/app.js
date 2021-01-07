@@ -4,12 +4,12 @@ const cors = require('cors')
 const app = express()
 
 app.use(cors())
-// app.get('/', (req, res, next) => {
-//     res.send ('Hello World');
-    
-// })
 
 app.use('/people', require('../people/people.router'))
 app.use('/pets', require('../pets/pets.router'))
+
+app.get('/', (req, res, next) => {
+    res.send ('Petful Server');
+})
 
 module.exports = app

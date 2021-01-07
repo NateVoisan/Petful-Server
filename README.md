@@ -1,11 +1,8 @@
 # Petful Server
-insert links here
-Live App
-Client Repo
-Server Repo
+[Live App](https://pacific-chamber-02247.herokuapp.com)
 
 Stack Used:
-Express, Node, Nodemon, DBeaver
+Express, Node, Nodemon
 
 API Documentation:
 Base URL:
@@ -45,4 +42,4 @@ Wait your turn to adopt - you will automatically be matched with the next pet in
 Technology
 Front-End: HTML5, CSS3, JavaScript ES6, React
 Back-End: Node.js, Express.js, Mocha, Chai, RESTful API Endpoints, Postgres
-Development Environment: Heroku, DBeaver, Nodemon
+Development Environment: Heroku, Nodemon
