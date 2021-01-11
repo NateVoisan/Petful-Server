@@ -5,6 +5,7 @@ Stack Used:
 Express, Node, Nodemon
 
 API Documentation:
+
 Base URL:
 
 GET /people

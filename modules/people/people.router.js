@@ -2,12 +2,11 @@ const express = require("express");
 const json = require("body-parser").json();
 
 const People = require("./people.service");
-
 const router = express.Router();
 
 router.get("/", (req, res) => {
   // Return all the people currently in the queue.
-  res.send(People.get());
+  res.send({data:People.get()});
 });
 
 router.post("/", json, (req, res) => {
@@ -18,6 +17,8 @@ router.post("/", json, (req, res) => {
 });
 
 router.delete("/", (req, res) => {
-  res.send(People.dequeue());
+  let response = People.dequeue();
+  res.send(response ? response:{});
+
 });
 module.exports = router;
