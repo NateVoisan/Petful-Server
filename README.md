@@ -1,11 +1,11 @@
 # Petful Server
 [Vercel Link](https://petful-client-gamma.vercel.app)
 
-[Client Repo](https://github.com/AngeloThinks/petful-client.git)
+[Client Repo](https://github.com/NateVoisan/petful-client)
 
 [Heroku Live App](https://pacific-chamber-02247.herokuapp.com)
 
-[Server Repo](https://github.com/AngeloThinks/petful-server.git)
+[Server Repo](https://github.com/NateVoisan/petful-server)
 
 Stack Used:
 Express, Node, Nodemon
