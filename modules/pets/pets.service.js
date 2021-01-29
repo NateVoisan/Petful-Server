@@ -21,7 +21,6 @@ module.exports = {
       cat: pets.cats.show(),
       dog: pets.dogs.show(),
     };
-    console.log(nextPets, "nextPets request");
     return nextPets;
   },
 

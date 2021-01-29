@@ -1,8 +1,8 @@
 module.exports = {
   people: [
-    'Randy Lahey',
-    'Trevor Cory',
-    'Jim Lahey'
+    'Thomas Brown',
+    'Alexander Tando',
+    'Rebecca Cavet'
   ],
 
   dogs: [
